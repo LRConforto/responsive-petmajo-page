@@ -71,8 +71,8 @@ section {
      display: flex; /* caso queira colocar algo do lado */
      align-items: center;
      justify-content: center;
-     color: var(--color-neutral-0);
      background-color: var(--color-primary-3);
+     color: var(--color-neutral-0);
      border-radius: 12px;
      padding: 10px 14px;
      font-weight: 600;

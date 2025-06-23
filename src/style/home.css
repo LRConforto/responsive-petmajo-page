@@ -47,5 +47,9 @@ section#home {
     .swiper-slide > img { 
         border-radius: 0px;
     }
+
+    .swiper-button-prev, .swiper-button-next { 
+    display: none;
+}
     
 }
