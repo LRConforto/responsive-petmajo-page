@@ -1,0 +1,82 @@
+footer {
+    width:100%;
+    /* pro svg não ficar com um gap entre ele e o topo do footer */
+    background: linear-gradient(
+        to bottom,
+        var(--color-primary-2) 20px,
+        var(--color-primary-4)20px 
+    );
+}
+
+#footer-itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: auto;
+    width: 80%;
+    padding: 1rem;
+    gap: 20px; 
+}
+
+ #itens-org {
+    margin: auto;
+    width: 90%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+ }
+ 
+ .item-org {
+    color: var(--color-neutral-0);
+    font-weight: 300;
+ }
+
+ .item-org h3 {
+    color: var(--color-neutral-0);
+    font-size: 1.1em;
+    font-weight: 700;
+ }
+
+
+ #copy {
+    color: var(--color-primary-3);
+    font-size: 1.2em; 
+    padding: 2rem;
+    font-weight: 400;
+ }
+
+ @media screen and (max-width:1226px ) {
+
+    #footer-itens { 
+        width: 100%;
+    }
+
+    #itens-org { 
+        width: 100%;
+        gap: 0px;
+    }
+
+}
+
+@media screen and (max-width: 775px) { 
+    #itens-org { 
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding-bottom: 5px;
+    }
+
+    .item-org {
+        text-align: center;
+     }
+
+     #copy { 
+        text-align: center;
+        padding-top: 5px;
+     }
+
+    footer { 
+        padding-top: 19px;
+    }
+
+}
